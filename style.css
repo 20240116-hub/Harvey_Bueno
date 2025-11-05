@@ -1,0 +1,121 @@
+@media(min-width: 769px) and (max-width: 1400px){
+body{
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: inset;
+    padding: 20px 20px;
+    border-radius: 30px
+}
+nav{
+    text-align: end;
+    justify-content: center;
+    display: flex;
+}
+h1{
+    color: aliceblue;
+    border-radius: 20px 20px;
+    padding: 20px;
+    background-color: black;
+    border-style: inset;
+    text-align: center;
+}
+ul{
+    display: block;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    a{
+        text-decoration: none;
+    }
+}
+div{
+    justify-content: center;
+    text-align: center;
+    color:aliceblue;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.container1{
+    border-style: inset;
+}
+.container2{
+    border-style: inset;
+    display: flex;
+    border-radius: 20px;
+    text-align: center;
+    width: auto;
+    max-width: auto;
+    margin: 0 auto;
+    color: aliceblue;
+}
+img{
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 10px;
+    max-width: auto;
+    height: auto;
+    border-style: inset;
+}
+.item1{
+    flex: 1;
+}
+.item2{
+    flex: 2;
+    width: auto;
+    height: auto;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: gray;
+}
+.bruh{
+    border-style: inset;
+}
+}
+@media(max-width: 768px){
+    body{
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: inset;
+    padding: 20px 20px;
+    border-radius: 30px
+}
+nav{
+    text-align: end;
+    justify-content: center;
+    display: flex;
+}
+h1{
+    color: aliceblue;
+    border-radius: 20px 20px;
+    padding: 20px;
+    background-color: black;
+    border-style: inset;
+    text-align: center;
+}
+ul{
+    display: block;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    a{
+        text-decoration: none;
+    }
+}
+div{
+    justify-content: center;
+    text-align: center;
+    color:aliceblue;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-style: inset;
+}
+.item2{
+    background-color: gray;
+}
+}
